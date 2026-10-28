@@ -1,6 +1,10 @@
 # Math and Language Synergy
 
-An online learning platform for English, Japanese, and Mathematics, built as a fast, responsive, bilingual single-page web application.
+An online learning platform for English, Japanese, and Mathematics. It is
+a fast, responsive, bilingual single-page web application.
+
+Source note: this README is based solely on the project file
+"# Math and Language Synergy.txt". No external sources were used.
 
 ## Table of Contents
 
@@ -26,9 +30,15 @@ An online learning platform for English, Japanese, and Mathematics, built as a f
 
 ## 1. Overview
 
-Math and Language Synergy helps learners master English, Japanese, and Mathematics through a structured course catalogue, a guided enrolment journey, a progress dashboard with achievement badges, a community forum, and a cultural exchange section. The interface supports English and Japanese navigation labels.
+Math and Language Synergy helps learners master English, Japanese, and
+Mathematics. It provides a structured course catalogue, a guided
+enrolment journey, a progress dashboard with achievement badges, a
+community forum, and a cultural exchange section. The interface supports
+English and Japanese navigation labels.
 
-The application runs entirely in the browser. There is no backend service in this repository, and demonstration content is supplied by local sample data.
+The application runs entirely in the browser. This repository contains
+no back-end service, and demonstration content is supplied by local
+sample data.
 
 Project URL: https://lovable.dev/projects/c3971488-8afe-4ac2-a215-2baa3dc9e053
 
@@ -73,20 +83,22 @@ Project URL: https://lovable.dev/projects/c3971488-8afe-4ac2-a215-2baa3dc9e053
 
 ### 4.1 Prerequisites
 
-- Node.js 18 or later, installed with nvm if preferred: https://github.com/nvm-sh/nvm#installing-and-updating
+- Node.js 18 or later. You may install it with nvm:
+  https://github.com/nvm-sh/nvm#installing-and-updating
 - npm 9 or later
 - Git
 
 ### 4.2 Installation
 
 ```sh
-git clone <YOUR_GIT_URL>
-cd <YOUR_PROJECT_NAME>
+git clone https://github.com/HChristopherNaoyuki/math-and-synergy-platform.git
+cd math-and-synergy-platform
 npm install
 npm run dev
 ```
 
-The development server starts on port 8080 with hot reloading and an instant preview.
+The development server starts on port 8080 with hot reloading and an
+instant preview.
 
 [Back to top](#table-of-contents)
 
@@ -110,11 +122,13 @@ The development server starts on port 8080 with hot reloading and an instant pre
 
 ```text
 .
-├── documentation/        Technical documentation, disclaimer, contributing guide
+├── documentation/        Technical documentation, disclaimer,
+│                         contributing guide
 ├── public/               Static assets
 ├── screenshots/          All visual media for this project
 ├── src/
-│   ├── components/       Reusable components and shadcn/ui primitives
+│   ├── components/       Reusable components and shadcn/ui
+│   │                     primitives
 │   ├── hooks/            Reusable React hooks
 │   ├── lib/              Shared utilities
 │   ├── pages/            One component per route
@@ -149,7 +163,10 @@ The development server starts on port 8080 with hot reloading and an instant pre
 
 ## 8. Screenshots
 
-Screenshots are not embedded in this file. All visual media for the application is stored in the dedicated `screenshots/` folder in the project directory. Refer to that folder for images of the home page, course catalogue, dashboard, forum, and other views.
+Screenshots are not embedded in this file. All visual media for the
+application is stored in the `screenshots/` folder in the project
+directory. Refer to that folder for images of the home page, course
+catalogue, dashboard, forum, and other views.
 
 [Back to top](#table-of-contents)
 
@@ -159,13 +176,17 @@ Screenshots are not embedded in this file. All visual media for the application 
 
 There are several ways to edit this project.
 
-**Use Lovable.** Visit the project URL and start prompting. Changes made through Lovable are committed automatically to this repository.
+**Use Lovable.** Visit the project URL and start prompting. Changes made
+through Lovable are committed automatically to this repository.
 
-**Use your preferred IDE.** Clone the repository, install dependencies, and push your changes. Pushed changes are reflected in Lovable.
+**Use your preferred IDE.** Clone the repository, install dependencies,
+and push your changes. Pushed changes are reflected in Lovable.
 
-**Edit directly in GitHub.** Open the file, select the edit action, make the change, and commit.
+**Edit directly in GitHub.** Open the file, select the edit action, make
+the change, and commit.
 
-**Use GitHub Codespaces.** Create a new codespace from the repository, edit, then commit and push.
+**Use GitHub Codespaces.** Create a new codespace from the repository,
+edit, then commit and push.
 
 [Back to top](#table-of-contents)
 
@@ -173,7 +194,10 @@ There are several ways to edit this project.
 
 ## 10. Deployment
 
-Open Lovable and select Share, then Publish. Alternatively, run `npm run build` and host the generated `dist/` folder on any static host. Configure the host to rewrite unknown paths to `index.html` so that client-side routing works on direct links and page refreshes.
+Open Lovable and select Share, then Publish. Alternatively, run
+`npm run build` and host the generated `dist/` folder on any static
+host. Configure the host to rewrite unknown paths to `index.html` so
+that client-side routing works on direct links and page refreshes.
 
 [Back to top](#table-of-contents)
 
@@ -181,7 +205,9 @@ Open Lovable and select Share, then Publish. Alternatively, run `npm run build` 
 
 ## 11. Custom Domain
 
-Navigate to Project, then Settings, then Domains, and select Connect Domain. Full instructions are available at https://docs.lovable.dev/features/custom-domain#custom-domain
+Navigate to Project, then Settings, then Domains, and select Connect
+Domain. Full instructions are available at
+https://docs.lovable.dev/features/custom-domain#custom-domain
 
 [Back to top](#table-of-contents)
 
@@ -201,7 +227,11 @@ Navigate to Project, then Settings, then Domains, and select Connect Domain. Ful
 
 ## 13. Contributing
 
-Contributions are welcome. Read `documentation/contributing.md` before opening a pull request. In summary: work on a focused branch, follow the coding and design token standards, run linting and the production build, verify affected routes, and update documentation in the same pull request.
+Contributions are welcome. Read `documentation/contributing.md` before
+opening a pull request. In summary: work on a focused branch, follow
+the coding and design token standards, run linting and the production
+build, verify affected routes, and update documentation in the same
+pull request.
 
 [Back to top](#table-of-contents)
 
@@ -209,7 +239,14 @@ Contributions are welcome. Read `documentation/contributing.md` before opening a
 
 ## 14. Disclaimer
 
-This software is provided as is, without warranty of any kind. The maintainers are not liable for malfunctions, defects, or issues arising from copying, modifying, or using it. Problems must not be fixed silently or outside the project. Open an issue or submit a pull request on the corresponding GitHub repository instead. Images and emojis must never be placed in this README file, and all visual media must be stored in the dedicated media folder. The full text is available in `documentation/disclaimer.md`.
+This software is provided as is, without warranty of any kind. The
+maintainers are not liable for malfunctions, defects, or issues arising
+from copying, modifying, or using it. Problems must not be fixed
+silently or outside the project. Open an issue or submit a pull request
+on the corresponding GitHub repository instead. Images and emojis must
+never be placed in this README file, and all visual media must be
+stored in the dedicated media folder. The full text is available in
+`documentation/disclaimer.md`.
 
 [Back to top](#table-of-contents)
 
@@ -217,6 +254,13 @@ This software is provided as is, without warranty of any kind. The maintainers a
 
 ## 15. Licence
 
-Refer to the licence file in the repository. If no licence file is present, all rights are reserved by the project owner.
+Refer to the licence file in the repository. If no licence file is
+present, all rights are reserved by the project owner.
 
 [Back to top](#table-of-contents)
+
+---
+
+END OF DOCUMENT
+
+---
