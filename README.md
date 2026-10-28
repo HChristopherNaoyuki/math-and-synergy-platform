@@ -1,11 +1,5 @@
 # Math and Language Synergy
 
-An online learning platform for English, Japanese, and Mathematics. It is
-a fast, responsive, bilingual single-page web application.
-
-Source note: this README is based solely on the project file
-"# Math and Language Synergy.txt". No external sources were used.
-
 ## Table of Contents
 
 - [1. Overview](#1-overview)
